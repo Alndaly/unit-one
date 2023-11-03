@@ -7,7 +7,7 @@ hero:
   text: "高校社区通用解决方案"
   tagline: 活在蔚蓝而自由的天空之下
   image:
-    src: /images/logo.png
+    src: https://oss.kinda.info/image/unit-one-logo.png
     alt: qr_code
   actions:
     - theme: brand

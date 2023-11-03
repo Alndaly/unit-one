@@ -10,7 +10,7 @@ export default defineConfig({
   description: "高校社区通用解决方案",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/images/logo.png',
+    logo: 'https://oss.kinda.info/image/unit-one-logo.png',
     nav: [
       { text: '控制台', link: 'https://control.unit-one.top' },
       { text: '商务/定制', link: '/business' }
@@ -44,7 +44,7 @@ export default defineConfig({
     ],
     
     footer: {
-      copyright: 'Copyright © 2023 元壹科技'
+      copyright: 'Copyright © 2023 Kinda'
     }
   }
 })
