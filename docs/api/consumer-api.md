@@ -13,7 +13,7 @@
 
 对于需要API-KEY的请求默认请在请求的请求头中增加如下字段：
 ```
-U-API-KEY: your access_token
+A-API-KEY: your access_token
 ```
 :::
 
@@ -21,7 +21,7 @@ U-API-KEY: your access_token
 
 ### API
 
-`https://unit-one.top/app/token`
+`https://api.unit-one.top/app/token`
 
 ### 传参
 
@@ -50,7 +50,7 @@ U-API-KEY: your access_token
 
 ### API 
 
-`https://unit-one.top/user/create?type=wx-mini`
+`https://api.unit-one.top/user/create?type=wx-mini`
 
 ### 请求方式
 
@@ -80,7 +80,7 @@ U-API-KEY: your access_token
 
 ### API 
 
-`https://unit-one.top/user/update`
+`https://api.unit-one.top/user/update`
 
 ### 请求方式
 
@@ -115,7 +115,7 @@ U-API-KEY: your access_token
 
 ### API 
 
-`https://unit-one.top/user/delete`
+`https://api.unit-one.top/user/delete`
 
 ### 请求方式
 
@@ -146,7 +146,7 @@ U-API-KEY: your access_token
 
 ### API 
 
- `https://unit-one.top/app/ability`
+ `https://api.unit-one.top/app/ability`
 
 ### 请求方式
 
