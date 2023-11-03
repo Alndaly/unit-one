@@ -44,9 +44,7 @@ A-API-KEY: your access_token
 }
 ```
 
-## 用户注册
-
-> 此接口需要传API-KEY
+## 用户注册  <Badge type="warning" text="API-KEY" />
 
 ### API 
 
@@ -74,9 +72,7 @@ A-API-KEY: your access_token
 }
 ```
 
-## 用户信息更新
-
-> 此接口需要传API-KEY
+## 用户信息更新  <Badge type="warning" text="API-KEY" />
 
 ### API 
 
@@ -109,9 +105,7 @@ A-API-KEY: your access_token
 }
 ```
 
-## 用户注销
-
-> 此接口需要传API-KEY
+## 用户注销  <Badge type="warning" text="API-KEY" />
 
 ### API 
 
@@ -136,13 +130,11 @@ A-API-KEY: your access_token
 }
 ```
 
-## 获取平台能力清单
+## 获取平台能力清单  <Badge type="warning" text="API-KEY" />
 
 :::tip
 此部分是收费项目，基础小程序初步规划仅提供日常交流和沟通。具体的小程序内嵌能力配置详情可见控制台内小程序配置页面。
 :::
-
-> 此接口需要传API-KEY
 
 ### API 
 
