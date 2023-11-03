@@ -25,22 +25,17 @@ A-API-KEY: your access_token
 
 ### 传参
 
-| 参数名  | 参数含义 | 参数示例 |
-| ------- | -------- | -------- |
-| app_id  | 应用id   | 1243     |
-| app_key | 应用密钥 | adasdasd |
+| 参数名    | 参数含义 | 参数示例 |
+| --------- | -------- | -------- |
+| appId     | 应用id   | 1243     |
+| appSecret | 应用密钥 | adasdasd |
 
 ### 返回范例
 
 ```json
 {
-	"code": 20000,
-	"msg": "success",
-	"data": {
-	    "access_token": "daskdnaskdadass",
-      	"refresh_token": "dasdniuqwhiohqwins",
-	    "expire": 3600
-    }
+    "access_token": "daskdnaskdadass",
+    "expires_in": 3600
 }
 ```
 
@@ -48,7 +43,7 @@ A-API-KEY: your access_token
 
 ### API 
 
-`https://api.unit-one.top/user/create?type=wx-mini`
+`https://api.unit-one.top/user/add`
 
 ### 请求方式
 
@@ -56,81 +51,25 @@ A-API-KEY: your access_token
 
 ### 传参
 
-| 参数名 | 参数含义     | 参数示例    |
-| ------ | ------------ | ----------- |
-| code   | 微信登陆code | dajisjdoias |
+| 参数名 | 参数含义           | 参数示例    |
+| ------ | ------------------ | ----------- |
+| code   | 微信小程序登陆code | dajisjdoias |
 
 ### 返回范例
 
 ```json
 {
-	"code": 20000,
-	"msg": "success",
-  	"data": {
-      	"id": 123
-    }
+	"id": 132,
+    "nickname": "dajisjdoias",
+    "avatar": "https://dasd.png",
+    "email": "adas@google.com",
+    "phone": "1231243324",
+    "isLock": false,
+    "uScore": 0
 }
 ```
 
-## 用户信息更新  <Badge type="warning" text="API-KEY" />
-
-### API 
-
-`https://api.unit-one.top/user/update`
-
-### 请求方式
-
-`POST`
-
-### 传参
-
-| 参数名    | 参数含义 | 参数示例 |
-| --------- | -------- | -------- |
-| id        | 用户id   | 132      |
-| nickname  | 昵称     |          |
-| gender    | 性别     |          |
-| age       | 年龄     |          |
-| signature | 个性签名 |          |
-| is_online | 是否在线 |          |
-
-### 返回范例
-
-```json
-{
-    "code": 20000,
-    "msg": "success",
-  	"data": {
-      	"id": 123
-    }
-}
-```
-
-## 用户注销  <Badge type="warning" text="API-KEY" />
-
-### API 
-
-`https://api.unit-one.top/user/delete`
-
-### 请求方式
-
-`POST`
-
-### 传参
-
-| 参数名 | 参数含义 | 参数示例 |
-| ------ | -------- | -------- |
-| id     | 用户id   | 132      |
-
-### 返回范例
-
-```json
-{
-	  "code": 20000,
-	  "msg": "success"
-}
-```
-
-## 获取平台能力清单  <Badge type="warning" text="API-KEY" />
+## 获取平台能力清单  <Badge type="warning" text="API-KEY" /> <Badge type="warning" text="开发中" /> 
 
 :::tip
 此部分是收费项目，基础小程序初步规划仅提供日常交流和沟通。具体的小程序内嵌能力配置详情可见控制台内小程序配置页面。
@@ -151,19 +90,13 @@ A-API-KEY: your access_token
 ### 返回范例
 
 ```json
-{
-    "code": 20000,
-    "msg": "success",
-    "data": {
-        "ability": [
-          	{
-                "id": 1,
-                "name": "树洞",
-                "image_url": "https://test.com/1.png",
-                "create_time": "2020-1-1",
-                "update_time": "2020-1-1"
-            }
-        ]
+[
+    {
+        "id": 1,
+        "name": "树洞",
+        "image_url": "https://test.com/1.png",
+        "create_time": "2020-1-1",
+        "update_time": "2020-1-1"
     }
-}
+]
 ```

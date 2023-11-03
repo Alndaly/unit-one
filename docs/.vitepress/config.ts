@@ -24,7 +24,8 @@ export default defineConfig({
       {
         text: '快速开始',
         items: [
-          { text: '背景介绍', link: '/start/base' },
+          { text: '控制台', link: '/start/control' },
+          { text: '图片上传', link: '/start/image_upload' },
         ]
       },
       {

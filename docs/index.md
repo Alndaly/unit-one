@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /start/base
+      link: /start/image_upload
     - theme: alt
       text: 消费接口
       link: /api/consumer-api
