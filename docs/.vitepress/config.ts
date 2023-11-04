@@ -22,10 +22,19 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: '基础介绍',
+        items: [
+          { text: '项目背景', link: '/base/background', }
+        ]
+      },
+      {
         text: '快速开始',
         items: [
+          { text: '微信小程序注册', link: '/start/wx_miniprogram' },
           { text: '控制台', link: '/start/control' },
           { text: '图片上传', link: '/start/image_upload' },
+          { text: '前端开源代码', link: '/start/frontend' },
+          { text: '后端开源代码', link: '/start/backend' },
         ]
       },
       {
@@ -37,13 +46,21 @@ export default defineConfig({
       {
         text: '商务/定制',
         link: '/business'
+      },
+      {
+        text: '寻求帮助',
+        link: '/help'
+      },
+      {
+        text: '体验小程序',
+        link: '/demo'
       }
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Alndaly/pub-miniprogram-unit-one' }
     ],
-    
+
     footer: {
       copyright: 'Copyright © 2023 Kinda'
     }

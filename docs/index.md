@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /start/image_upload
+      link: /start/wx_miniprogram
     - theme: alt
-      text: 消费接口
-      link: /api/consumer-api
+      text: 体验小程序
+      link: /demo
 
 features:
   - title: 定制个性化体验
