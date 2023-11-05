@@ -44,6 +44,10 @@ export default defineConfig({
         ]
       },
       {
+        text: '更新日志',
+        link: '/changelog'
+      },
+      {
         text: '商务/定制',
         link: '/business'
       },
