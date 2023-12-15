@@ -12,10 +12,6 @@
 
 进入应用管理子菜单项，点击+即可新建应用。目前仅支持微信小程序，后续会支持更多平台。填写名称、上一步中记录下的微信小程序的AppId和AppSecret，点击确认即可。注意这部分AppId和AppSecret是微信小程序的，需要你在微信小程序的控制台中获取。
 
-![](https://oss.kinda.info/image/Screenshot%202023-11-04%20at%2010.42.50.png)
+![](https://oss.kinda.info/image202312151400235.png)
 
 创建成功后，列表中会新增你刚刚增加的应用，其中的appId和appSecret是我平台的，当然如果暂时不记住也没关系，后续是一直可查看的。
-
-:::info
-我平台的appId和appSecret在后续调用我提供的api时会用到。
-:::

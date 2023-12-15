@@ -33,8 +33,7 @@ export default defineConfig({
           { text: '微信小程序注册', link: '/start/wx_miniprogram' },
           { text: '控制台', link: '/start/control' },
           { text: '图片上传', link: '/start/image_upload' },
-          { text: '前端开源代码', link: '/start/frontend' },
-          { text: '后端开源代码', link: '/start/backend' },
+          { text: '开源代码', link: '/start/pub_code' },
         ]
       },
       {
