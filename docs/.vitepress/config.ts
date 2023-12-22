@@ -34,6 +34,7 @@ export default defineConfig({
           { text: '控制台', link: '/start/control' },
           { text: '图片上传', link: '/start/image_upload' },
           { text: '开源代码', link: '/start/pub_code' },
+          { text: 'Web版本社区', link: '/start/website' },
         ]
       },
       {

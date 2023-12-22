@@ -1,7 +1,7 @@
 # 开源前端
 
 :::tip
-目前只提供小程序，后续将会优先提供web站点开源
+目前只对小程序部分开源，其他组件开源计划中...
 :::
 
 小程序项目开源地址 https://github.com/Alndaly/pub-miniprogram-unit-one
