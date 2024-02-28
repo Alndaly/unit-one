@@ -1,0 +1,18 @@
+{
+	"index": {
+		"title": "首页",
+		"type": "page"
+	},
+	"document": {
+		"title": "文档",
+		"type": "page"
+	},
+	"blog": {
+		"title": "博客",
+		"type": "page"
+	},
+	"changelog": {
+		"title": "更新日志",
+		"type": "page"
+	}
+}
