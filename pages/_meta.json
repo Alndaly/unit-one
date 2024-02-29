@@ -14,5 +14,11 @@
 	"changelog": {
 		"title": "更新日志",
 		"type": "page"
+	},
+	"unit_one_link": {
+		"title": "Unit One Web",
+		"href": "https://unit-one.top",
+		"newWindow": true,
+		"type": "page"
 	}
 }
